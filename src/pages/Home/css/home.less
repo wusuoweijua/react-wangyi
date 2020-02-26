@@ -1,0 +1,201 @@
+.container-top{
+  position: relative;
+  .homeHeaders{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    margin-bottom: 3px;
+    background: #fff;
+    .logo{
+      height: 20px;
+      width: 69px;
+      display: inline-block;
+      background: url(http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/indexLogo-a90bdaae6b.png);
+      background-size: cover;
+      margin-left: 20px;
+    }
+    .search{
+      display: block;
+      height: 10px;
+      width: 5px;
+      color: grey;
+      font-size: 22px;
+      position: absolute;
+      left: 110px;
+      bottom: 22px;
+    }
+    .input{
+      width: 221px;
+      height: 23px;
+      display: inline-block;
+      border-radius: 5px;
+      background: #ccc;
+      padding: 0 40px;
+      box-sizing: border-box;
+      border: none;
+      outline: none;
+    }
+    .btn{
+      background: #fff;
+      font-size:10px;
+      width: 40px;
+      height: 17px;
+      border-radius: 5px;
+      line-height: 17px;
+      color:red;
+      border: 1px solid red;
+      margin-right: 5px;
+      text-align: center;
+    }
+  }
+  .homeNav{
+    height: 30px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    background: #fff;
+    position: relative;
+    .content{
+      display: flex;
+      white-space: nowrap;
+      height: 100%;
+      padding-left: 10px;
+      box-sizing: border-box;
+      width: 750px;
+      li{
+        width: 70px;
+        height: 100%;
+        text-align: center;
+        line-height: 30px;
+        font-size:13px;
+        position: relative;
+        box-sizing: border-box;
+      }
+      .active{
+        color: red;
+        border-bottom: 3px solid red;
+      }
+    }
+    .down{
+      width: 50px;
+      height: 30px;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      z-index: 3;
+      text-align: center;
+      line-height: 30px;
+      background:#fff;
+      span{
+        display: block;
+        font-size: 20px;
+        transition: all 0.5s;
+      }
+      .active{
+        transform-origin: center;
+        transform:rotateZ(180deg);
+      }
+      
+    }
+   
+   
+  }
+  .cover{
+    width: 100%;
+    height: 622px;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    z-index: 2;
+    box-sizing: border-box;
+    .select{
+      height: 190px;
+      width: 100%;
+      background: #fff;
+      padding-top: 3px;
+      span{
+        display: block;
+        font-size: 15px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+      }
+      .select-ul{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding:10px;
+        box-sizing: border-box;
+        li{
+          height: 28px;
+          width: 75px;
+          background: #fafafa;
+          text-align: center;
+          line-height: 28px;
+          font-size: 13px;
+          border: 1px solid #eee;
+        }
+        .active{
+          color:red;
+          border: 1px solid red;
+        }
+      }
+      
+    }
+    .hidden{
+      height: 100%;
+      width: 100%;
+      background-color: rgba(25,25,25, 0.7);
+    }
+  }
+  .selectNone{
+    display: none;
+  }
+  .swiper-container{
+    width: 100%;
+    height: 185px;
+    .swiper-wrapper{
+      height: 185px;
+      .swiper-slide{
+        width: 100%;
+        height: 100%;
+        background: pink;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+/deep/.swiper-pagination{
+        .swiper-pagination-bullet{
+          width: 25px;
+          height: 3px;
+          border-radius: 0;
+        }
+        // >span.swiper-pagination-bullet-active{
+        //   background: #fff;
+        // }
+}
+    }
+  }
+  .guarantee{
+    width: 100%;
+    height: 36px;
+    display: flex;
+    margin-bottom: 5px;
+    background: #fff;
+    div{
+      flex:1;
+      text-align: center;
+      line-height: 36px;
+      .iconfont{
+        font-size:20px;
+        margin-right: 3px;
+        vertical-align: middle;
+        color: red;
+      }
+    }
+  }
+}
